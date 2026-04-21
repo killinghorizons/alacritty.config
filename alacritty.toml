@@ -1,0 +1,26 @@
+[general]
+working_directory = "C:\\Users\\jerem"
+import = ["themes/rose_pine_moon.toml"]
+
+[window]
+dimensions = { columns = 100, lines = 30 }
+decorations = "Full"
+dynamic_title = true
+decorations_theme_variant = "Dark"
+padding = { x = 6, y = 6 }
+
+
+[font]
+# normal = { family = "Monaspace Neon NF", style="Regular"}
+normal = { family = "Hasklug Nerd Font", style = "Regular" }
+size = 13
+# glyph_offset = { y = 1}
+
+[font.offset]
+y = 2
+
+[cursor]
+style = { shape = "Block", blinking = "On" }
+
+[terminal.shell]
+program = "nu.exe"
